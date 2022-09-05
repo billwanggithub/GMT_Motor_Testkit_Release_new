@@ -49,38 +49,34 @@
 ![](https://i.imgur.com/mEK9Bub.png)
 
 #### `Max. 1st FG Time/Start Stall Time`
-:::info
-:bulb:Start Stall Time
+>
+> :bulb:Start Stall Time
 啟動時超過Stall Time時,尚未看到第一個FG變化,會停止本次測試跳到下一次測試
-:::
 
-::: info
-:bulb:Max. 1st FG Time
+>:bulb:Max. 1st FG Time
 啟動時若第一個FG變化超過Max. 1st FG Time,不會停止本次測試,若error有勾選會記錄
-:::
+
 ![](https://i.imgur.com/cyUqiir.png) ![](https://i.imgur.com/TiLXdhE.png)
 
 #### `Running RPM error`
 ![](https://i.imgur.com/n0QpK0X.png) ![](https://i.imgur.com/KYS0d4f.png)
 
 #### `Auto Stable Test`
-:::info
-:information_source: 有Enable時,達成[穩定測試條件](https://hackmd.io/VTtx3Je1R2-bkXGfu2KUkg?both#%E8%BD%89%E9%80%9F%E7%A9%A9%E5%AE%9A%E6%A2%9D%E4%BB%B6)時會停止本次測試跳到下一次測試
-:::
 
-![](https://i.imgur.com/EzyQMVk.png)
+__Note:__ 有Enable時,達成[穩定測試條件](https://hackmd.io/VTtx3Je1R2-bkXGfu2KUkg?both#%E8%BD%89%E9%80%9F%E7%A9%A9%E5%AE%9A%E6%A2%9D%E4%BB%B6)時會停止本次測試跳到下一次測試
+> 
+>![](https://i.imgur.com/EzyQMVk.png)
 ##### 誤差計算方式
-![](https://i.imgur.com/J2hMtd2.png)
+> ![](https://i.imgur.com/J2hMtd2.png)
 ##### 轉速穩定條件
-:::info
-:bulb: **在設定的時間(Time)內的RPM的平均值與此時間內的最大RPM的誤差(error1)或最小RPM的誤差(error2)均要小於設定值(error)**
-:::
+
+> :bulb: **在設定的時間(Time)內的RPM的平均值與此時間內的最大RPM的誤差(error1)或最小RPM的誤差(error2)均要小於設定值(error)**
+
 
 #### `Snapshot`
-![](https://i.imgur.com/2nVasXZ.png)
-:::info
-:bulb: 每次測試RPM曲線儲存成png圖檔
-:::
+>![](https://i.imgur.com/2nVasXZ.png)
+>
+>:bulb: 每次測試RPM曲線儲存成png圖檔
 
 ---
 ### Basic Test
