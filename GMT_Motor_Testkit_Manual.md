@@ -27,14 +27,11 @@
 #### `Pole Pairs`
 ![](https://i.imgur.com/fnBMmBt.png) 提供FG頻率換算RPM
 
-:::info
+> 
+> :bulb:RPM計算公式如下
+> 
+> $RPM = \frac{FG\ Frequency(Hz) * 60}{Pole\ Pairs}$
 
-:bulb:
-RPM計算公式如下
-
-$$RPM = \frac{FG\ Frequency(Hz) * 60}{Pole\ Pairs}$$
-
-:::
 
 
 #### `Duty On/Off Stuff`
