@@ -6,6 +6,8 @@
 [toc]
 :::
 
+[toc]
+
 ---
 ## ==APP Download Link==
 [[v0.1.1.0]:arrow_left:](https://github.com/billwanggithub/GMT_Motor_Testkit_Release_new/raw/ea4a6c0870d651fe5a71b74d98d1110f2da77506/APP/motor_testkit_v0.1.1.0.7z)
@@ -24,10 +26,16 @@
 ### 測試參數定義
 #### `Pole Pairs`
 ![](https://i.imgur.com/fnBMmBt.png) 提供FG頻率換算RPM
+
 :::info
-:bulb:RPM計算公式如下
-$$ RPM = \frac{FG\ Frequency(Hz) * 60}{Pole\ Pairs} $$
+
+:bulb:
+RPM計算公式如下
+
+$$RPM = \frac{FG\ Frequency(Hz) * 60}{Pole\ Pairs}$$
+
 :::
+
 
 #### `Duty On/Off Stuff`
 ![](https://i.imgur.com/Dl11QYt.png) ![](https://i.imgur.com/raYEeix.png)
