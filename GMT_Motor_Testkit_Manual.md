@@ -1,6 +1,6 @@
 ###### tags: `GMT TestKit`
 # GMT Motor Test Kit 使用手冊
-*update: 2022.09.07*
+*update: 2022.09.12*
 
 :::spoiler **目錄**
 [toc]
