@@ -152,19 +152,25 @@ foreach (duty in duty list)
     ![](img/vuFzvpM.png)
   
   * 結果會存成 fancurve***.csv
+
     ![](img/qGSVDZW.png)
 
 * 切換到Startup Test. 勾選 Lookup table
+
     ![](img/bTkGvNa.png)
 
 * 切換到Lookup Table. 載入fan curve table.
+
     ![](img/zNSrK0J.png)
 
 * 設定Final RPM與Target RPM的±誤差範圍
+
     > ***Target RPM相關測試參數***
-        ![](img/HrPJDKx.png)
+
+    ![](img/HrPJDKx.png)
 
 * 點擊測試按鈕
+
     ![](img/qGjQ4xr.png)
 
 ---
@@ -174,8 +180,6 @@ foreach (duty in duty list)
 ![](img/SSGZIJM.png)
 
 ### **Sweep Type**
-
-:::success
 
 #### Duty
 
@@ -202,8 +206,6 @@ foreach (duty in duty list)
     }
 }
 ```
-
-:::
 
 ---
 
@@ -233,12 +235,15 @@ foreach (duty in duty list)
 ## **Others**
 
 :bulb: Startup Test Histogram可儲存成csv格式
+
 ![](img/obRklLE.png)
 
 :bulb:　使用 CTRL+ALT+Z 截圖到 Clipboard
+
 > 把鼠標移動到你要的圖上 再按CTRL+ALT+Z
 
 :bulb:　Startup Test測試表格相關功能
+
 ![](img/HPA9EgF.png)
 
 ---
