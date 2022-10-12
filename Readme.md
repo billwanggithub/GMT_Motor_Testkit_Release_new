@@ -10,4 +10,4 @@
 
 - [Taiwan User](https://hackmd.io/@billwang168/ryT2WPi05)
 
-- [Local](master/Doc/GMT%20Motor%20Test%20Kit%20使用手冊.md)
+- [Local](file://Doc//GMT%20Motor%20Test%20Kit%20使用手冊.md)
