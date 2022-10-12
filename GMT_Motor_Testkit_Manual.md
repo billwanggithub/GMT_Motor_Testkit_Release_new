@@ -1,16 +1,15 @@
 ###### tags: `GMT TestKit`
 # GMT Motor Test Kit 使用手冊
-*update: 2022.08.18*
+*update: 2022.09.12*
 
 :::spoiler **目錄**
 [toc]
 :::
 
-[toc]
 
 ---
 ## ==APP Download Link==
-[[v0.1.1.0]:arrow_left:](https://github.com/billwanggithub/GMT_Motor_Testkit_Release_new/raw/ea4a6c0870d651fe5a71b74d98d1110f2da77506/APP/motor_testkit_v0.1.1.0.7z)
+[v0.1.1.2:arrow_left:](https://github.com/billwanggithub/GMT_Motor_Testkit_Release_new/blob/af6635a7fe844a9f562c7dd09a362aa49682ee64/APP/motor_testkit_v0.1.1.2.7z)
 
 ---
 ## ==Features==
@@ -25,28 +24,25 @@
 ## ==Startup test==
 ### 測試參數定義
 #### `Pole Pairs`
-![](https://i.imgur.com/fnBMmBt.png) 提供FG頻率換算RPM
-
+>![](https://i.imgur.com/fnBMmBt.png) 提供FG頻率換算RPM
 > 
 > :bulb:RPM計算公式如下
 > 
 > $RPM = \frac{FG\ Frequency(Hz) * 60}{Pole\ Pairs}$
 
 
-
 #### `Duty On/Off Stuff`
-![](https://i.imgur.com/Dl11QYt.png) ![](https://i.imgur.com/raYEeix.png)
+>![](https://i.imgur.com/Dl11QYt.png) ![](https://i.imgur.com/raYEeix.png)
 ![](https://i.imgur.com/uHWvBxo.png)
 
 #### `Power On/OFF Stuff`
-![](https://i.imgur.com/9zpcNCV.png) ![](https://i.imgur.com/j8vmImd.png)
-
-![](https://i.imgur.com/5ZqlplM.png)
+>![](https://i.imgur.com/9zpcNCV.png) ![](https://i.imgur.com/j8vmImd.png)
+>![](https://i.imgur.com/5ZqlplM.png)
 
 
 #### `RPM Limit`
-![](https://i.imgur.com/EKyjU9n.png)
-![](https://i.imgur.com/mEK9Bub.png)
+> ![](https://i.imgur.com/EKyjU9n.png)
+> ![](https://i.imgur.com/mEK9Bub.png)
 
 #### `Max. 1st FG Time/Start Stall Time`
 >
@@ -59,11 +55,11 @@
 ![](https://i.imgur.com/cyUqiir.png) ![](https://i.imgur.com/TiLXdhE.png)
 
 #### `Running RPM error`
-![](https://i.imgur.com/n0QpK0X.png) ![](https://i.imgur.com/KYS0d4f.png)
+>![](https://i.imgur.com/n0QpK0X.png) ![](https://i.imgur.com/KYS0d4f.png)
 
 #### `Auto Stable Test`
 
-__Note:__ 有Enable時,達成[穩定測試條件](https://hackmd.io/VTtx3Je1R2-bkXGfu2KUkg?both#%E8%BD%89%E9%80%9F%E7%A9%A9%E5%AE%9A%E6%A2%9D%E4%BB%B6)時會停止本次測試跳到下一次測試
+>__Note:__ 有Enable時,達成[穩定測試條件](https://hackmd.io/VTtx3Je1R2-bkXGfu2KUkg?both#%E8%BD%89%E9%80%9F%E7%A9%A9%E5%AE%9A%E6%A2%9D%E4%BB%B6)時會停止本次測試跳到下一次測試
 > 
 >![](https://i.imgur.com/EzyQMVk.png)
 ##### 誤差計算方式
@@ -118,7 +114,7 @@ foreach (duty in duty list)
 
 ---
 ### Lookup table Test
-* 先做一次 Fancurve test.
+* 先做一次 Fancurve test
     * 設定 Sweep type: Duty or Power 
     * 只要勾選UP即可.設定每一步的測試時間(Sampling time )    
     ![](https://i.imgur.com/K8tINN7.png)     
@@ -215,34 +211,31 @@ foreach (duty in duty list)
 
 ---
 
-## Release Notes
+## ==Release Notes==
+- v0.1.1.2, 220912
+    - 修正rolling jump datalog 同步問題
+- v0.1.1.1, 220907
+    - 修正rolling duty jump時無data log問題
 - v0.1.1.0, 220905
     - 加入在測試前調整PWM   Duty是否輸出的選項
-
 - v0.1.0.11, 220809
     - 加入 rolling duty/voltage datalog
     - 修正 rolling duty/voltage datatable null value問題
-
 - v01010, 220726
      - 修正Rolling mode PWM frequency輸入問題
-
 - v0109, 220725
     - show warning if file is locked when loading startup test log 
     - copy fancurve file to startup test if enable lookup table
-
 - v0108, 220722
     - rpm plot 圖例改成靠上水平排列
-
 - v0107, 220721
     - 使用 power Supply 電流給fancurve/startup datalog表格
     - 修正 final rpm reading 有時候會0問題
     - 使用 CTRL+ALT+Z 截圖到 Clipboard
-
 - v0106, 220720
     - 修正running rpm rising/falling error 顯示問題
     - startup增加error description
     - 修正Normal Trigger 有時候會不見問題
-
 ---
 Feel free to ping us for questions:
 - :mailbox: bill.wang@gmt.com.tw
