@@ -27,9 +27,10 @@
 
 ### 測試參數定義
 
-#### `Pole Pairs`
-
->![](img/fnBMmBt.png) 提供FG頻率換算RPM
+#### `Pole Pairs` 
+![](img/fnBMmBt.png) 
+>
+>提供FG頻率換算RPM
 >
 > :bulb:RPM計算公式如下
 >
@@ -37,23 +38,24 @@
 
 #### `Duty On/Off Stuff`
 
->![](img/Dl11QYt.png) ![](img/raYEeix.png)
-![](img/uHWvBxo.png)
+![](img/Dl11QYt.png) ![](img/raYEeix.png)
+>![](img/uHWvBxo.png)
 
 #### `Power On/OFF Stuff`
 
->![](img/9zpcNCV.png) ![](img/j8vmImd.png)
+![](img/9zpcNCV.png) ![](img/j8vmImd.png)
 >![](img/5ZqlplM.png)
 
 #### `RPM Limit`
 
-> ![](img/EKyjU9n.png)
+![](img/EKyjU9n.png)
 > ![](img/mEK9Bub.png)
 
 #### `Max. 1st FG Time/Start Stall Time`
 >
 > :bulb:Start Stall Time
 啟動時超過Stall Time時,尚未看到第一個FG變化,會停止本次測試跳到下一次測試
+
 >:bulb:Max. 1st FG Time
 啟動時若第一個FG變化超過Max. 1st FG Time,不會停止本次測試,若error有勾選會記錄
 
@@ -61,7 +63,9 @@
 
 #### `Running RPM error`
 
->![](img/n0QpK0X.png) ![](img/KYS0d4f.png)
+![](img/n0QpK0X.png) 
+
+>![](img/KYS0d4f.png)
 
 #### `Auto Stable Test`
 
@@ -95,16 +99,14 @@
 
 ![](img/TWn70KX.png)
 
-* 設定ON/OFF Mode
 
-  ![](img/napFBTa.png)
-
-* 設定Duty及Power測試參數
+#### 設定Duty及Power測試參數
 
   ![](img/XHmgBh0.png)
 
-:::success
-ON/OFF Mode
+#### 設定ON/OFF Mode
+
+  ![](img/napFBTa.png)
 
 * Duty
 
@@ -133,8 +135,6 @@ foreach (duty in duty list)
     }
 }
 ```
-
-:::
 
 ---
 
@@ -206,6 +206,7 @@ foreach (duty in duty list)
     }
 }
 ```
+
 
 ---
 
