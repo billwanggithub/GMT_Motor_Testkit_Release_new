@@ -10,7 +10,6 @@
 
 [github v0.1.2.0:arrow_left:](https://github.com/billwanggithub/GMT_Motor_Testkit_Release_new/blob/734c45547d51db5c5877ebc9edfd80e7e85bcaa7/APP/motor_testkit_v0.1.2.0.7z)
 
-
 ---
 
 ## **Features**
@@ -96,8 +95,13 @@
 
 ![](img/TWn70KX.png)
 
-* 設定ON/OFF Mode ![](img/napFBTa.png)
-* 設定Duty及Power測試參數 ![](img/XHmgBh0.png)
+* 設定ON/OFF Mode
+
+  ![](img/napFBTa.png)
+
+* 設定Duty及Power測試參數
+
+  ![](img/XHmgBh0.png)
 
 :::success
 ON/OFF Mode
@@ -139,10 +143,14 @@ foreach (duty in duty list)
 * 先做一次 Fancurve test
   * 設定 Sweep type: Duty or Power
   * 只要勾選UP即可.設定每一步的測試時間(Sampling time )
+
     ![](img/K8tINN7.png)
     ![](img/hCEapPA.png)
+
   * 觀察每個step轉速是否穩定,視需要加減Sampling Time
+
     ![](img/vuFzvpM.png)
+  
   * 結果會存成 fancurve***.csv
     ![](img/qGSVDZW.png)
 
@@ -151,9 +159,11 @@ foreach (duty in duty list)
 
 * 切換到Lookup Table. 載入fan curve table.
     ![](img/zNSrK0J.png)
+
 * 設定Final RPM與Target RPM的±誤差範圍
     > ***Target RPM相關測試參數***
         ![](img/HrPJDKx.png)
+
 * 點擊測試按鈕
     ![](img/qGjQ4xr.png)
 
