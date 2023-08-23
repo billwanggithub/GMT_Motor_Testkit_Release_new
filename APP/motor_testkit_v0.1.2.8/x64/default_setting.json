@@ -1,0 +1,156 @@
+{
+  "parameter": [
+    {
+      "pole_pairs": 2.0,
+      "simple_power": 5.0,
+      "startup_repeat": 10.0,
+      "simple_duty": 10.0,
+      "startup_pwm_frequency": 20000.0,
+      "max_1st_fg_time_ms": 1000.0,
+      "target_rpm_time": 10.0,
+      "startup_target_rpm_ratio": 10.0,
+      "startup_target_rpm_value": 100000.0,
+      "max_current": 3.0,
+      "rpm_rise_time_ratio": 50.0,
+      "stable_rpm_error": 10.0,
+      "stable_rpm_count": 2.0,
+      "stable_time": 3.0,
+      "rpm_max_limit": 100000.0,
+      "startup_stall_time": 2.0,
+      "rpm_min_limit": 10.0,
+      "test_time_max": 10.0,
+      "motor_stop_delay_time": 5.0,
+      "running_rpm_falling_error": 1000.0,
+      "running_rpm_rising_error": 1000.0,
+      "power_start": 5.0,
+      "power_stop": 5.0,
+      "power_ovp": 6.5,
+      "power_iset": 3.0,
+      "power_step": 0.1,
+      "duty_start": 10.0,
+      "duty_stop": 100.0,
+      "duty_step": 10.0,
+      "test_on_delay": 0.0,
+      "pwm_off_delay": 0.1,
+      "max_display_points": 10000.0,
+      "capture_input_filter": 10.0,
+      "fg_sample_time": 0.0,
+      "fg_inc": 0.0,
+      "current_sampling_time": 0.0,
+      "power_on_offset": 0.0,
+      "fc_sampling_time_down": 5.0,
+      "fc_sampling_time_up": 5.0,
+      "rolling_power": 12.0,
+      "rolling_iset": 3.0,
+      "rolling_ovp": 18.0,
+      "rolling_ocp": 5.0,
+      "rolling_recording_time": 60.0,
+      "rolling_window_size": 10000.0,
+      "rolling_pole_pairs": 2.0,
+      "rolling_pwm_frequency": 20000.0,
+      "rolling_pwm_duty": 100.0,
+      "ckb_enable_sweep": false,
+      "ckb_pause_test_on_error": false,
+      "ckb_power_on_relay": true,
+      "ckb_startup_fg_time_limit_error": false,
+      "ckb_target_rpm_time_error": false,
+      "ckb_target_rpm_ratio_error": false,
+      "ckb_max_current_error": false,
+      "ckb_stable_rpm_error": false,
+      "ckb_enable_stable_test": true,
+      "ckb_rpm_limit_max_error": false,
+      "ckb_startup_stall_time_error": false,
+      "ckb_rpm_limit_min_error": false,
+      "ckb_running_rpm_falling_error": false,
+      "ckb_running_rpm_rising_error": false,
+      "ckb_startup_enable_lookuptb": false,
+      "ckb_beep_board": true,
+      "ckb_beep_pc": false,
+      "ckb_fg_negative": true,
+      "ckb_enable_ch2_interrupt": false,
+      "ckb_enable_device_id": false,
+      "ckb_debug_capture": false,
+      "ckb_enable_psudeo_fg": false,
+      "ckb_anson_test": false,
+      "ckb_snapshot": false,
+      "ckb_uart_auto": false,
+      "ckb_enable_current_sampling": false,
+      "ckb_fc_direction_down": false,
+      "ckb_fc_direction_up": true,
+      "ckb_rolling_jump_repeat": true,
+      "ckb_rolling_relay_off_at_zero": false,
+      "rdb_onoff_type_pwm": true,
+      "rdb_onoff_type_power": false,
+      "rdb_lookuptb_type_duty": true,
+      "rdb_lookuptb_type_voltage": false,
+      "rdb_fc_type_duty": true,
+      "rdb_fc_type_power": false,
+      "rdb_rolling_type_duty": false,
+      "rdb_rolling_type_voltage": false,
+      "rdb_rolling_type_simple": true,
+      "hsrl_rolling_pwm_duty": 1000.0,
+      "hist_xmax": 1000.0,
+      "hist_time_interval": 100.0,
+      "hist_ymin": 0.0,
+      "hist_xmin": 0.0,
+      "hist_ymax": 100.0,
+      "ckb_hist_blink_on_error": true,
+      "ckb_hist_IsValueShownAsLabel": false,
+      "ckb_hist_auto_y_axis": true,
+      "ckb_hist_show_red_on_max": false,
+      "ckb_hist_auto_x_axis": true,
+      "ckb_startup_duty_power_off": true,
+      "ckb_startup_duty_relay_off": false,
+      "ina228_mode": 11,
+      "ina228_ctime": 2,
+      "ina228_avg": 1,
+      "ckb_rolling_pwm_off_before_test": "0",
+      "hotkey_copy_chart": 0
+    }
+  ],
+  "datalog": [],
+  "rollingVoltage": [
+    {
+      "VM(V)": 0.0,
+      "Time(s)": 1.0
+    },
+    {
+      "VM(V)": 0.0,
+      "Time(s)": 1.0
+    },
+    {
+      "VM(V)": 0.0,
+      "Time(s)": 1.0
+    },
+    {
+      "VM(V)": 0.0,
+      "Time(s)": 1.0
+    },
+    {
+      "VM(V)": 0.0,
+      "Time(s)": 1.0
+    }
+  ],
+  "rollingDuty": [
+    {
+      "Duty(%)": 0.0,
+      "Time(s)": 1.0
+    },
+    {
+      "Duty(%)": 0.0,
+      "Time(s)": 1.0
+    },
+    {
+      "Duty(%)": 0.0,
+      "Time(s)": 1.0
+    },
+    {
+      "Duty(%)": 0.0,
+      "Time(s)": 1.0
+    },
+    {
+      "Duty(%)": 0.0,
+      "Time(s)": 1.0
+    }
+  ]
+}

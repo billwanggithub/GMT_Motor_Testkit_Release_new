@@ -1,0 +1,36 @@
+2023-06-05 09:51:23.8833|ERROR|debug|System.IO.IOException: Operation failed early: 裝置沒有連線。 ---> System.ComponentModel.Win32Exception: 裝置沒有連線。
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 HidSharp.AsyncResult`1.EndOperation() 於 C:\Code\src\oss\hidsharp\hid\HidSharp\AsyncResult.cs: 行 68
+   於 System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_1(Stream stream, IAsyncResult asyncResult)
+   於 System.Threading.Tasks.TaskFactory`1.FromAsyncTrimPromise`1.Complete(TInstance thisRef, Func`3 endMethod, IAsyncResult asyncResult, Boolean requiresSynchronization)
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 MyUSB.HID.<WriteString>d__27.MoveNext() 於 D:\github\GMT_Motor_Testkit_F411\app\motor_control\motor_control\MyLib\HID.cs: 行 301
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 MyUSB.HID.<ConnectAsync>d__25.MoveNext() 於 D:\github\GMT_Motor_Testkit_F411\app\motor_control\motor_control\MyLib\HID.cs: 行 173
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   於 MyUSB.USBDetection.<DetectUSBDeviceAsync>d__7.MoveNext() 於 D:\github\GMT_Motor_Testkit_F411\app\motor_control\motor_control\MyLib\USBDetection.cs: 行 71
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 MyUSB.USBDetection.<Start>d__8.MoveNext() 於 D:\github\GMT_Motor_Testkit_F411\app\motor_control\motor_control\MyLib\USBDetection.cs: 行 109
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 MotorTestKit.Form_main.<initHardwareAsync>d__143.MoveNext() 於 D:\github\GMT_Motor_Testkit_F411\app\motor_control\motor_control\Form_main.cs: 行 1893
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   於 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   於 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   於 System.Threading.ThreadPoolWorkQueue.Dispatch()
